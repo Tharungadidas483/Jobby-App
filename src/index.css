@@ -1,0 +1,21 @@
+body { background: #f4f6f8; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.login-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #1f2933; padding: 16px; }
+.login-card { background: #fff; padding: 32px; border-radius: 8px; width: 100%; max-width: 380px; }
+.hero { min-height: calc(100vh - 56px); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 0 8vw; background: #1f2933; color: #fff; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); max-width: 14ch; font-weight: 800; }
+.hero p { max-width: 40ch; color: #cbd2d9; }
+.jobs-layout { display: flex; gap: 24px; padding: 24px; }
+.filters { width: 280px; flex-shrink: 0; }
+.results { flex: 1; min-width: 0; }
+.profile-card { background: #e8f0fe; padding: 16px; border-radius: 8px; }
+.profile-card img { width: 56px; height: 56px; }
+.job-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; }
+.job-card { background: #fff; padding: 16px; border-radius: 8px; list-style: none; border: 1px solid #e4e7eb; }
+.logo { width: 48px; height: 48px; object-fit: contain; }
+.life-img { max-width: 280px; width: 100%; border-radius: 8px; }
+.skills { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 16px; }
+.skills li { display: flex; align-items: center; gap: 8px; width: 160px; }
+.skills img { width: 36px; }
+.loader-box { display: flex; justify-content: center; padding: 48px 0; }
+.state-box { text-align: center; padding: 48px 16px; }
+@media (max-width: 768px) { .jobs-layout { flex-direction: column; } .filters { width: 100%; } }
