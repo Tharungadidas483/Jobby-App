@@ -1,4 +1,4 @@
-# Jobby App
+# Jobby-App
 
 Job search web app built with React JS, React Router, JWT authentication and Bootstrap.
 
